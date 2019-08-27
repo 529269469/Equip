@@ -4,7 +4,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.Toast;
 
-import com.example.onlinetwo.base.MyApplication;
+
+import com.example.equip.base.MyApplication;
 
 import java.io.File;
 import java.util.Locale;

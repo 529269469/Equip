@@ -4,7 +4,8 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Chronometer;
 
-import com.example.onlinetwo.utils.DataUtils;
+
+import com.example.equip.utils.DataUtils;
 
 import java.text.SimpleDateFormat;
 

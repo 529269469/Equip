@@ -12,7 +12,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 /**
- * Created by yangjingsong on 16/8/9.
  */
 public abstract class LazyFragment extends Fragment {
     // 标志位，标志Fragment已经初始化完成。

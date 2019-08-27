@@ -2,8 +2,9 @@ package com.example.equip.net;
 
 import android.util.Log;
 
-import com.example.onlinetwo.base.MyApplication;
-import com.example.onlinetwo.utils.ToastUtils;
+
+import com.example.equip.base.MyApplication;
+import com.example.equip.utils.ToastUtils;
 import com.google.gson.Gson;
 
 import java.io.IOException;

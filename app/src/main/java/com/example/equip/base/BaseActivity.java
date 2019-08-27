@@ -14,15 +14,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.gyf.barlibrary.ImmersionBar;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-
 /**
- * Created by pantianxiong on 2018/4/23.
  * 描述：MVP 基础activity
  */
 public abstract class BaseActivity<P extends BasePresenter> extends AppCompatActivity {
