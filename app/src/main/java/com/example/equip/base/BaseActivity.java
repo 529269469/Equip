@@ -61,7 +61,6 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
     }
 
 
-    public abstract Intent openIntent(Context context);
 
     protected abstract void initView();
 

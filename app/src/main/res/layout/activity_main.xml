@@ -7,12 +7,56 @@
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
 
-    <include layout="@layout/tobar"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/padding_80"/>
 
-    <com.jcodecraeer.xrecyclerview.XRecyclerView
-        android:id="@+id/recycler"
+    <include
+        layout="@layout/tobar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_44" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_44"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="装备" />
+
+        <View
+            android:layout_width="@dimen/padding_1"
+            android:layout_height="match_parent"
+            android:background="@color/color_D0D0D0" />
+        <TextView
+            android:id="@+id/tv_titleName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:text="" />
+
+        <View
+            android:layout_width="@dimen/padding_1"
+            android:layout_height="match_parent"
+            android:background="@color/color_D0D0D0" />
+        <TextView
+            android:id="@+id/tv_guidance"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="指导" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_1"
+        android:background="@color/color_D0D0D0" />
+
+    <FrameLayout
+        android:id="@+id/fl_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
