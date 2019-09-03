@@ -53,4 +53,6 @@ public class OperationAndUseFragment extends BaseFragment {
     protected int getLayoutId() {
         return R.layout.fragment_operation_and_use;
     }
+
+
 }

@@ -33,9 +33,9 @@
             android:layout_width="@dimen/padding_1"
             android:layout_height="match_parent"
             android:background="@color/color_D0D0D0" />
-        <ListView
+        <FrameLayout
             android:layout_weight="3"
-            android:id="@+id/lv_details"
+            android:id="@+id/fl_details"
             android:layout_width="0dp"
             android:layout_height="match_parent"/>
 
